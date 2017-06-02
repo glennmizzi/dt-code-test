@@ -15,7 +15,7 @@
     // If the object contains elements
     if (data.length > 0) {
       for (var i = 0; i < data[0].cats.length; i++) {
-        list = '<div class="col col-sm-6"><div class="item"><img class="item-image img-circle" src="' + data[0].cats[i].imageUrl + '/" alt=""><h2 class="item-name">' + data[0].cats[i].name + '</h2><p class="item-description">' + data[0].cats[i].description + '</p></div><div>';
+        list = '<div class="col col-sm-6"><div class="item"><img class="item-image img-circle" src="' + data[0].cats[i].imageUrl + '/" alt=""><h2 class="item-name">' + data[0].cats[i].name + '</h2><p class="item-description">' + data[0].cats[i].description + '</p><p class="item-link"><a href="">View details &raquo;</a></p></div><div>';
         $('#dataList').append(list);
       }
       $('#dataList').wrapInner('<div class="row"></div>');

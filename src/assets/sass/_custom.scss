@@ -1,0 +1,17 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+$brand-primary:         #808080;
+
+$btn-primary-bg:                 $brand-primary;
+$btn-primary-border:             darken($btn-primary-bg, 5%);
+
+$border-radius-base:        0;
+$border-radius-large:       0;
+$border-radius-small:       0;
+
+$btn-border-radius-base:         $border-radius-base;
+$btn-border-radius-large:        $border-radius-large;
+$btn-border-radius-small:        $border-radius-small;
