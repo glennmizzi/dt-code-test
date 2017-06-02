@@ -1,0 +1,55 @@
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+@import "bootstrap/glyphicons";
+
+// Core CSS
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/forms";
+
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+
+@import "_file.scss";
+
+.navbar-header img {
+	margin-top: 12px;
+}
+.navbar-header span { 
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 13px;
+}
+
+.footer {
+	border-top: 1px solid #f5f5f5;
+	padding: 50px 0;
+	margin-top: 50px;
+}
+
+.banner {
+	min-height: 600px;
+}
+.banner-inner {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.banner-caption {
+	position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
