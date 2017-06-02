@@ -5,7 +5,8 @@
   "repository": "",
   "author": "DT Front End",
   "dependencies": {
-    "bootstrap-sass": "3.3.7"
+    "bootstrap-sass": "3.3.7",
+    "jquery": "1.12.4"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",

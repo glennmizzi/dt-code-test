@@ -1,3 +1,3 @@
 module.exports = {
-    src: [ '<%= path.build %>' ]
+  src: ['<%= path.build %>']
 };
